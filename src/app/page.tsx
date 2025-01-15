@@ -1,8 +1,9 @@
+import SearchComponent from "@/components/search-components";
 
 export default function Home() {
   return (
-    <div className="font-primary">
-      COSY RESIDENCE
+    <div className="px-20">
+  <SearchComponent />
     
     </div>
   );
