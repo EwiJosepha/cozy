@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-yellow-300 shadow-lg z-50 h-40 flex flex-col justify-center">
+    <header className="sticky top-0 bg-yellow-300 shadow-lg z-50 h-40 flex flex-col">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="text-white text-xl font-bold">
           COZY RESIDENCE
@@ -28,7 +28,7 @@ const Header = () => {
             Sign Up
           </div>
           <div className="relative w-10 h-10">
-            <Image src="/assets/images/default-cozy.png" alt="Avatar" layout="fill" objectFit="cover" className="rounded-full" />
+            {/* <Image src="/assets/images/default-cozy.png" alt="Avatar" layout="fill" objectFit="cover" className="rounded-full" /> */}
           </div>
         </nav>
 
